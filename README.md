@@ -18,10 +18,9 @@
 
 | refactoring                                | effort | how often used | outcome |
 | ------------------------------------------ | ------ | -------------- | ------- |
-| renaming field                             | 1      | 1              | 1       |
-| extracting method                          | 1      | 1              | 1       |
-| change static fields to singleton instance | 1      | 1              | 1       |
-| extract class                              | 1      | 1              | 1       |
+| renaming field                             | low    | often          | more intuitive naming making for improved code readability |
+| extracting method                          | medium | often          | makes code modular and flexible, reduce clutter leading to improved code readability |
+| encapsulate field                          | medium | often          | reduces risk of something unintended being done to a field, e.g. by only allowing small increments or decrements |
 
 ## Didrik
 
